@@ -12,13 +12,13 @@ const SideNav = () => {
         <div className='nav mt-5'>
             
 <ul>
-    <Link className='text-light text-decoration-none' to="/"><li><MdSpaceDashboard/><p>Dashboard</p></li></Link> 
-    <Link className='text-light text-decoration-none' to="/products"><li><BsShop/><p>Products</p></li></Link> 
-    <Link className='text-light text-decoration-none' to="/new/product">   <li><SiProducthunt/> <p>New Product</p></li></Link>
-    <Link className='text-light text-decoration-none' to="/delete/products"><li><AiFillDelete/><p>Delete Product</p></li></Link>
-    <Link className='text-light text-decoration-none' to="/orders"><li><AiFillCreditCard/><p>Order</p></li></Link> 
-    <Link className='text-light text-decoration-none' to="/expense"><li><RiMoneyDollarCircleFill/> <p>Expense</p></li></Link>
-    <Link className='text-light text-decoration-none' to="/setting"><li><AiFillSetting/><p>Setting</p></li></Link> 
+    <Link className='text-light text-decoration-none' to="/"><li><MdSpaceDashboard className='h6 mb-4'/><p>Dashboard</p></li></Link> 
+    <Link className='text-light text-decoration-none' to="/products"><li><BsShop className='h6 mb-4' /><p>Products</p></li></Link> 
+    <Link className='text-light text-decoration-none' to="/new/product">   <li><SiProducthunt className='h6 mb-4' /> <p>New Product</p></li></Link>
+    <Link className='text-light text-decoration-none' to="/delete/products"><li><AiFillDelete className='h6 mb-4' /><p>Delete Product</p></li></Link>
+    <Link className='text-light text-decoration-none' to="/orders"><li><AiFillCreditCard className='h6 mb-4' /><p>Order</p></li></Link> 
+    <Link className='text-light text-decoration-none' to="/expense"><li><RiMoneyDollarCircleFill className='h6 mb-4' /> <p>Expense</p></li></Link>
+    <Link className='text-light text-decoration-none' to="/setting"><li><AiFillSetting className='h6 mb-4' /><p>Setting</p></li></Link> 
 </ul>
         </div>
     
