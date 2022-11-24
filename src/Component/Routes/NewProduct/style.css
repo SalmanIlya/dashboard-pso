@@ -1,0 +1,36 @@
+.new-product-input-div{
+    /* border: 2px solid black; */
+    background: white;
+    border-radius: 12px;
+    height: 12rem;
+    width: 100%;
+}
+.input{
+    border: none;
+    outline: none;
+    background: #efefef;
+    height: 2.5rem;
+    width: 12rem !important;
+    padding: 5px;
+    font-size: 20px;
+
+}
+.input-div{
+    margin: 1rem;
+
+}
+
+.size-qty{
+    /* border: 1px solid black ; */
+    margin: 5rem;
+    background: white;
+    border-radius: 12px;
+}
+.input-item{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(109, 107, 107);
+    margin-left: 5px;
+    background: transparent;
+
+}
