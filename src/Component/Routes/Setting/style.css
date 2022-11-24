@@ -1,0 +1,41 @@
+.main-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.s-box-1{
+    display:  flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 30rem;
+    height: 10rem;
+    border-radius: 12px;
+    background: white;
+    padding: 1rem;
+
+}
+.f-box{
+    display: flex;
+    /* flex-direction: ; */
+    justify-content: space-between;
+    width: 100%;
+}
+.s-box-2{
+    display:  flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    width: 30rem;
+    height: 10rem;
+    border-radius: 12px;
+    background: white;
+    padding: 1rem;
+
+
+
+}
+.icon{
+    color: #06603A;
+
+}
