@@ -1,0 +1,27 @@
+.m-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.box-1{
+    width:60%;
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+
+}
+.box-2{
+    width: 30%;
+    background: white;
+    border-radius: 12px;
+    padding: 1rem;
+}
+.input-items{
+    border: none;
+    outline: none;
+    
+    border-bottom: 1px solid rgb(109, 107, 107);
+    margin-left: 5px;
+    background: transparent;
+
+}
