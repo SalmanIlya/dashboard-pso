@@ -4,3 +4,18 @@ main{
   width: 100%;
   z-index: 100;
 }
+.btn{
+  background: #06603A !important;
+  border: none;
+  padding: 1rem;
+  border-radius: 7px;
+  color: white !important;
+  transition: all 1s !important;
+
+}
+.btn:hover{
+  border: 1px solid #06603A !important;
+  background: transparent !important;
+  color: #06603A !important;
+
+}
