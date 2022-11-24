@@ -38,7 +38,7 @@ justify-content: space-between;
 }
 .c-box-2{
     font-size: 25px;
-    color: orange;
+    color: #06603A;
 }
 .box-3{
     width: 100%;
@@ -53,5 +53,6 @@ justify-content: space-between;
     outline: none;
     border-bottom: 1px solid rgb(109, 107, 107);
     margin-left: 5px;
+    background: transparent;
 
 }
