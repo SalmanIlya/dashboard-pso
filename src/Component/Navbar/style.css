@@ -1,51 +1,44 @@
-.nav-bar{
-    z-index: 100;
-    background:rgb(246, 243, 243);
-    color: #06603A;
-    
+.nav-bar {
+  z-index: 100;
+  background: rgb(246, 243, 243);
+  color: #06603a;
 }
 
-.sidenav{
-    width: 70px !important;
-    /* height:100% !important; */
-    /* min-height: 500px; */
-    min-height: 130vh !important;
-    top: 0;
-    left: 0;
-    transition: all 1s;
-    background:#06603A !important;
-    /* position:fixed ; */
-    z-index: 100;
+.sidenav {
+  width: 70px !important;
+  min-height: 130vh !important;
+  top: 0;
+  left: 0;
+  transition: all 1s;
+  background: #06603a !important;
+  z-index: 100;
+}
+nav {
+  height: 60vh;
+  min-height: 300px;
+}
+ul {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+li {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  align-items: left !important;
+  width: 200px;
+  font-size: 18px;
+  color: lightgray;
 
-}
-nav{
-height: 60vh;
-min-height: 300px;
-}
-ul{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-li{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-decoration: none;
-    align-items: center;
-    width: 160px;
-font-size: 18px;
-color: lightgray;
-/* color: #B7BF6E; */
-
-transition: all 2s;
+  transition: all 2s;
 }
 
-li p{
-margin-left: 25px !important;
+.icons {
+  margin-right: 3rem !important;
 }
 
-.sidenav:hover{
-    width: 250px !important;
-    z-index: 0;
+.sidenav:hover {
+  width: 250px !important;
+  z-index: 0;
 }
