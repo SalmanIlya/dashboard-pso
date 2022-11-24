@@ -51,7 +51,7 @@ const Products = () => {
   </tbody>
 </table>
 <div className='d-flex flex-row justify-content-between text-center'>
-<button className='btn btn-dark m-5' onClick={()=>{
+<button className='btn m-5' onClick={()=>{
     if(a===0){
         b(0)
         d(5)
@@ -60,7 +60,7 @@ const Products = () => {
         d(c-5)
     }
 }}>Peverious</button>
-<button className='btn btn-dark m-5'onClick={()=>{
+<button className='btn  m-5'onClick={()=>{
     if(allProduct.length===c||allProduct.length<=c){
         b(0)
         d(5)
